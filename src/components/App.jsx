@@ -14,7 +14,7 @@ const App = () => {
 
 const handleSearch = async (topic) => {
     try {
-	    setArticles([]);
+	    // setArticles([]);
 	    setError(false);
       setLoading(true);
       const data = await fetchArticlesWithTopic(topic);
